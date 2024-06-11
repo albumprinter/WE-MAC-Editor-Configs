@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+
+<configuration>
+  <v2>
+    <generic>
+      <matching active="true">
+        <configuration>
+          <maximumNumberOfPhotos>25</maximumNumberOfPhotos>
+          <minimumPhotoSize>1200</minimumPhotoSize>
+        </configuration>
+        <criteria>
+          <criterion id="customerRating" weight="1"/>
+          <criterion id="framed" weight="0.5"/>
+          <criterion id="masked" weight="0"/>
+          <criterion id="nonObscuredArea" weight="1"/>
+          <criterion id="photoOnCover" weight="1"/>
+          <criterion id="numberOfOccurrences" weight="-0.5"/>
+          <criterion id="opaque" weight="1"/>
+          <criterion id="photoOnCoverAndContent" weight="1"/>
+          <criterion id="rotated" weight="0.5"/>
+          <criterion id="shadowed" weight="0"/>
+        </criteria>
+      </matching>
+      <enhancement active="true" url="https://dwnld.filecatalogue.com/CE/enhancement.dat"/>
+      <online url="https://dwnld.filecatalogue.com/CE/onlinecheck.txt"/>
+      <welcome url="https://www.bonusprint.co.uk/start/installation-successful/?id=%s&amp;version=%s"/>
+      <downloadedge url="https://go.microsoft.com/fwlink/p/?LinkId=2124703"/>
+      <tlssupport url="https://support.microsoft.com/topic/update-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392"/>
+      <clientlogin url="https://login.albelli.com/v2/connect/token"/>
+      <campaigns url="https://campaigns.sf.albelli.com/api/v1/campaigns" status="published" vendor="bonusprint.co.uk" merchandisingslot="website_photobooks" channel="merchandising"/>
+      <campaignsv2 url="https://bonusprint.co.uk/campaign/merchandising/category/Photobook/product"/>
+      <campaignsv3 url="https://campaign-product-display.a-dtap.sf.albelli.com/api/v1/campaign/merchandising/category/photobook/product?vendor=bonusprint.co.uk"/>
+      <api>
+        <upload retry="3"/>
+        <cart url="https://cart.nonprod.ecom2.albelli.com/Carts"/>
+        <storage url="https://storage.staging.photos"/>
+        <merchandise url="https://a-dtap.api.photoconnector.net/CATALOG/?format=xml&amp;vendor=%d&amp;expanded=true"/>
+        <errorreport url="https://errorreporting.api.photoconnector.net"/>
+        <elvis url="https://asset-manager.stage.api.ebt.albelli.com"/>
+        <productlocalization active="true" url=":https://albx-localization.stage.api.ebt.albelli.com/api/v2/albx"/>
+        <cmsproductselection active="true" url="https://aph22d3pwd.execute-api.eu-west-1.amazonaws.com/acc/client_editor_feed?vendor=bonusprint.co.uk" protocol="apcbp"/>
+        <fontrepository url="https://fonts.documents.cimpress.io/v1/repositories/1a0b1afe-08c0-4196-9cc3-03bf27187f0c/fonts?view=Public&amp;status=Published"/>
+        <googlecustomsearch url="https://www.googleapis.com/customsearch/v1"/>
+        <bingimagesearch url="https://api.bing.microsoft.com/v7.0/images/search"/>
+        <spine url="https://spinewidth-api.ecom2.albelli.com/Data/Spines"/>
+        <productgeneration url="https://product-generation.api.ebt.albelli.com"/>
+      </api>
+      <apikeys>
+        <bing>
+QVBAQVBDWEAsAAAAZnHpgxU2OUoyB2pYkgbLossFhbv+VrC852U8l3IKXomRpUBVLLUKyFeZIdM=
+        </bing>
+        <google>
+QVBAQVBDWEAHAQAAGOxiqlLsnN6guwZlYoiPFgFZKSE5y2KsLTTFilukYukOf+zmmNB6ns38hEL0
+zhlcuR4AQIte2Yb6cubf+lbOy7d1MMr6TyKiccbUihdtwz/8LO+L1KTvfxT8jNlMpIZPbdT6eA/k
+iiFw4I3bDvs0jEROtzKhA3u+uBVR0+nWxqZvGISjR3iiW9/WZCCUrpshjHpCU/kFVawXPCC53X1Q
+tlBJrPJjTSi8o1GJvwTX+FRpHFB3HM7F7ogkNXUDvedZE0Aag0aaoLpLqpDnUNfBTFX9WOabTU6H
+nBbWvaEAd+iLqDKUxttrDmC2l+QOaYclonCeurIhnt2xB3Y+K4LzVIsJVh3yFhLp
+        </google>
+        <resnap>
+QVBAQVBDWEBfAAAAgPg4OzGICXVMqgpHqirbER1h3O78drAruQySJ+hdfozOhVeH/m0+sg4s4ygV
+rdrOzoN20zwDyqxxBr7Pu/KI+1Oe+E75cPKYWilW7EaLNiPvIclduA/5BE3JDTH97eYv
+        </resnap>
+        <launchdarkly>
+QVBAQVBDWEA3AAAAbaC6KPIqvhikoiZ5jwoDGvvzg0CQzPH5zMdT/I/MAG1tBstEDOARdjHEngFn
+/zaRJNzqzmkXJ20=
+        </launchdarkly>
+        <albelliclientlogin>
+QVBAQVBDWECHAAAA/u93T6LS5x4vpFs7eEgohz6canD7tKIfzBzxXl2rq/WaM1+/PobA+3gUOMxl
+ng5Dy+OJa1eLWo6BPMhL1VLQCVn0Wbmc3Y50quCXimBuLPidFsBCMdCepPowaKqdr++KA6iol0rA
+1IVeaYCSySf3+S2TFRwvXe8XodPBWf/EqJS8tQdE59nmfA==
+        </albelliclientlogin>
+      </apikeys>
+      <socialmedia>
+QVBAQVBDWEC0AAAAApO6TYlj7obpxOZLUvxn2179hmsP2FssdLGM/RLxq5Z6kzW8yY+fdi5RP64F
+MboF6kiycr5Uv2keqqE9N4HtppPQRv3YGU2PGY62J2klxslUrBR0AYzv0XEa3PnFUCHUkQBEzfFs
+0wskPQlbgzTMmSF4D9DIfz+1bFQrrxiRIG/xOVDeV8NDLAE5eJnKo38QmCj3B5DNNbb8o2WMCLlR
+wj1gAFguDa0NuauAYh+G0iZrMM0U	  
+      </socialmedia>
+      <onlineinfo>
+        <enhancement url="https://service.albelli.com/hc/en-gb/articles/15593931205265?editor_type=windows"/>
+      </onlineinfo>
+      <behaviour>
+        <welcome url="https://dwnld.filecatalogue.com/CE/welcome/WE/%d/welcome.html"/>
+        <analytics active="true" id="albumprinterdownloadeditorsprod" namespace="albumprinter" url="https://albumprinter.122.2o7.net/b/ss/%s/1/H.26.2/%s?AQB=1&amp;ndh=0&amp;c46=BP&amp;v64=BP"/>
+        <upsell upsize="false" layflat="true"/>
+        <askautofill active="true"/>
+        <enablerecovery active="true"/>
+        <help url="https://service.albelli.com/hc/en-gb/sections/15386604980113?editor_type=windows"/>
+        <automaticlayouts active="true"/>
+        <genericsurvey url="http://survey.usabilla.com/live/s/5b056f67fe27fd6dbe54c7bc?reset&amp;EditorVersion&amp;VisitorID" active="true" caption="Would you like to answer a few questions about the software during the upload?"/>
+        <actionsurvey url="http://survey.usabilla.com/live/s/5b72c741d5cedc55c007a132?reset&amp;EditorVersion&amp;VisitorID&amp;smart-assist-advanced" active="true" action="actresnap" onclose="true" caption="Would you like to answer a few questions about the Smart Assistant?"/>
+        <unsavedproductsurvey url="http://survey.usabilla.com/live/s/606df563ac26fa078c1a4a0f?reset&amp;EditorVersion&amp;VisitorID&amp;PredProdID" active="true" caption="We would love your feedback so that we can improve your experience with us." product="predesigned"/>
+        <logging active="true" url="https://logging.albelli.com/Y2VudHJhbGl6ZWQtYWxiZWxsaS1sb2dnaW5nLWVuZHBvaW50LXByb2R1Y3Rpb24tMjAyMA" environment="acc"/>
+        <resnap active="true" photoproductapiurl="https://api.photo-product.albelli.ai" layoutcover="false"/>
+        <badges>
+          <cover active="false" caption="" brush="" pen="" fontcolor="" fontsize="" fontstyle="" placement=""/>
+          <layflat active="true" caption="Best choice" brush="clTeal" pen="clTeal" fontcolor="clWhite" fontsize="10" fontstyle="bold" placement="topleft"/>
+        </badges>
+        <suppressasksmartassistant active="true"/>
+        <mobiletransfer active="true" helpurl="" feedbackurl="https://survey.usabilla.com/live/s/645bab11d88a0e70d53aa0ad"/>
+      </behaviour>
+      <vendors>
+        <vendor>1000</vendor>
+        <vendor>1199</vendor>
+        <vendor>1200</vendor>
+        <vendor>1201</vendor>
+        <vendor>1203</vendor>
+        <vendor>1205</vendor>
+        <vendor>1206</vendor>
+        <vendor>1207</vendor>
+        <vendor>1210</vendor>
+        <vendor>1212</vendor>
+        <vendor>1213</vendor>
+        <vendor>1214</vendor>
+        <vendor>1215</vendor>
+        <vendor>1216</vendor>
+        <vendor>1217</vendor>
+        <vendor>1221</vendor>
+        <vendor>1222</vendor>
+        <vendor>1223</vendor>
+        <vendor>1224</vendor>
+        <vendor>1226</vendor>
+        <vendor>1227</vendor>
+        <vendor>1228</vendor>
+        <vendor>1229</vendor>
+        <vendor>1230</vendor>
+        <vendor>1231</vendor>
+        <vendor>1232</vendor>
+        <vendor>3196</vendor>
+      </vendors>
+    </generic>
+    <assets>
+      <masks md5="2A0E629DA533DD72C51E7ADD9FE1428E" url="https://clienteditorassets.file.photoconnector.net/masks/1221_v2.xml"/>
+      <frames md5="640F0344CE29BB7923C7B284A3D2337D" url="https://clienteditorassets.file.photoconnector.net/frames/1221_v2.xml"/>
+      <backgrounds md5="DCEDE75A1E260E030176FF5D3B856674" url="https://clienteditorassets.file.photoconnector.net/backgrounds/1221_v2.xml"/>
+      <clipart md5="F17629534691E267DB27AC1714B3EFB0" url="https://clienteditorassets.file.photoconnector.net/clipart/1221_v2.xml"/>
+      <themes md5="89D4768262D922E025291D3D70556F5B" url="https://clienteditorassets.file.photoconnector.net/themes/1221_v2.xml"/>
+      <plugins md5="32317D402E1888E4B07B4FF802AE4B82" url="https://clienteditorassets.file.photoconnector.net/plugins/1221_v2.xml"/>
+    </assets>
+    <platform name="windows">
+      <branch supported="true"/>
+      <update version="24.0.3" minversion="24.0.3" mandatory="true" url="https://s3-eu-west-1.amazonaws.com/a-dtap.dwnld.filecatalogue.com/CE/bin/WE/current/Bonusprint.exe">
+        <remark>&lt;FONT size=&quot;4&quot;&gt;The Bonusprint software has been updated. Get the latest improvements by installing the new version now.&lt;BR&gt;&lt;BR&gt;Simply install it by clicking &quot;OK&quot; to continue with your product.&lt;/FONT&gt;</remark>
+        <releasenotes>
+Version;Date;Description;ReadMoreURI
+24.0.3;16-05-2024;General bug fixes and improvements.;
+24.0.2;11-04-2024;General bug fixes and improvements.;
+24.0.1;04-04-2024;General bug fixes and improvements.;
+24.0.0;04-04-2024;New: You can now with [ALT + arrow left] and [ALT + arrow right] navigate between objects on your page.;
+24.0.0;04-04-2024;New: We added support for the SVG file format.;
+24.0.0;04-04-2024;We improved the appearance of the application.;
+24.0.0;04-04-2024;General bug fixes and improvements.;
+23.5.4;07-02-2024;Fixed an error when opening album from the gallery.;
+23.5.3;05-02-2024;Fixed errors when choosing a font for page number and text mask.;
+23.5.2;31-01-2024;Fixed an error when choosing a font.;
+23.5.1;29-01-2024;General bug fixes and improvements.;
+23.5.0;15-01-2024;General bug fixes and improvements.;
+23.4.2;14-11-2023;General bug fixes and improvements.;
+23.4.1;13-10-2023;General bug fixes and improvements.;
+23.4.0;12-10-2023;We added an option in the photo browser to filter &quot;Used&quot; or &quot;Unused&quot; photos.;
+23.4.0;12-10-2023;General bug fixes and improvements.;
+23.3.0;04-08-2023;Improved &quot;playful style&quot; in the Smart Assistant.;
+23.3.0;04-08-2023;Import Mobile Photos improved.;
+23.3.0;04-08-2023;General bug fixes.;
+23.2.0;03-07-2023;General bug fixes and improvements.;
+23.1.1;31-05-2023;General bug fixes and improvements.;
+23.1.0;25-05-2023;General bug fixes and improvements.;
+23.0.1;05-04-2023;General bug fixes and improvements.;
+23.0.0;03-04-2023;The new home screen looks more modern and consistent with other windows applications.;
+23.0.0;03-04-2023;It&apos;s now easier to create layouts with the improved and extended snap and align functionality.;
+23.0.0;03-04-2023;Improvement: You can now position your images near the fold.;
+23.0.0;03-04-2023;General bug fixes and improvements.;
+22.6.0;17-01-2023;General bug fixes and improvements.;
+22.5.0;20-12-2022;General bug fixes and improvements.;
+22.4.0;01-11-2022;General bug fixes and improvements.;
+22.3.0;29-08-2022;Web pages inside the creator tool are now displayed with Microsoft Edge instead of Internet Explorer.;
+22.3.0;29-08-2022;Improvement: When moving an image, the quick menu is not displayed anymore.;
+22.3.0;29-08-2022;General bug fixes and improvements.;
+22.2.1;06-07-2022;General bug fixes and improvements.;
+22.2.0;05-07-2022;General bug fixes and improvements.;
+22.1.0;23-05-2022;We did some fixes to continue the support for Windows 7 users.;
+22.1.0;23-05-2022;General bug fixes and improvements.;
+22.0.0;11-03-2022;You can now turn image enhancement on or off for the whole book, directly from the [Photobook &amp; page] menu tab.;
+22.0.0;11-03-2022;We made some improvements to the editor performance, so the application is now faster.;
+22.0.0;11-03-2022;Based on your feedback, we removed the .psd files support, due to suboptimal performance in the editor.;
+22.0.0;11-03-2022;Increased the visibility of the assets in the asset browser.;
+22.0.0;11-03-2022;General bug fixes and improvements.;
+21.5.0;19-01-2022;Native support for .heic images.;
+21.5.0;19-01-2022;You can now remove projects from the gallery and the most recent projects overview.;
+21.5.0;19-01-2022;Smart Assistant performance improvements.;
+21.5.0;19-01-2022;General bug fixes and improvements.;
+21.4.0;26-10-2021;When creating an album with Smart Assistant, you can now mark an image as favourite. This will result in the image(s) being bigger in the book.;
+21.4.0;26-10-2021;General bug fixes and improvements.;
+21.3.0;29-09-2021;General bug fixes and improvements.;
+21.2.0;12-08-2021;General bug fixes and improvements.;
+21.2.0;12-08-2021;New - We improved the Smart Assistant. It will now do a better job on keeping related photos together per page.;
+21.1.0;06-07-2021;General bug fixes and improvements.;
+21.0.1;09-06-2021;General bug fixes and improvements.;
+21.0.0;09-06-2021;New - You can now open up to 3 albums in parallel in the photo book editor so you can re-use your content across books;
+21.0.0;09-06-2021;General bug fixes and improvements.;
+20.4.0;15-04-2021;General bug fixes and improvements.;
+20.3.0;25-01-2021;General bug fixes and improvements.;
+20.2.1;06-01-2021;General bug fixes and improvements.;
+20.2.0;22-12-2020;General bug fixes and improvements.;
+20.1.2;21-8-2020;General bug fixes and improvements.;
+20.1.1;17-7-2020;General bug fixes and improvements.;
+20.1.0;13-7-2020;General bug fixes and improvements.;
+20.0.1;1-7-2020;General bug fixes and improvements.;
+20.0.0;30-6-2020;Simplified version of the ribbon with better grouped options.;
+20.0.0;30-6-2020;Made general bug fixes and improvements.;
+19.6.1;12-5-2020;General bug fixes and improvements;
+19.6.0;29-4-2020;General bug fixes and improvements;
+19.5.0;9-3-2020;General bug fixes and improvements;
+19.4.0;21-1-2020;The text masks feature has been expanded to allow more options for transparency and text masks can now be created with multiple lines of text.;
+19.4.0;21-1-2020;New: All images can now be stretched out of proportion. This can be enabled through the right click menu.;
+19.4.0;21-1-2020;When pages are added a random layout is chosen instead of the layout of the previous page.;
+19.3.2;18-12-2019;General bug fixes and improvements;
+19.3.1;20-11-2019;General bug fixes and improvements;
+19.3.0;14-11-2019;General bug fixes and improvements;
+19.3.0;14-11-2019;New! Try the new creative Photo Placeholder groups to quickly create various mosaics;
+19.3.0;14-11-2019;New! Add QR-Codes to your photo book;
+19.2.2;23-10-2019;Made general bug fixes and improvements.;
+19.2.1;9-10-2019;Made general bug fixes and improvements.;
+19.2.0;17-9-2019;Made general bug fixes and improvements.;
+19.2.0;17-9-2019;Remove 1 colour by making it transparent through the image edit screen;
+19.2.0;17-9-2019;Keep 1 colour and make the rest of the image black and white through the image edit screen;
+19.2.0;17-9-2019;Make an image placeholder exactly square through the context menu or the ribbon on top.;
+19.2.0;17-9-2019;Apply a more precise rotation correction throught the image edit screen;
+19.1.0;23-8-2019;General bug fixes and improvements;
+19.0.0;24-7-2019;&quot;My layouts has been moved to it&apos;s own category under &apos;Layouts&apos;&quot;;
+19.0.0;24-7-2019;New! From now on you can use shapes as decorations when designing your photobook.;
+18.2.0;25-6-2019;General bug fixes and improvements;
+18.2.0;25-6-2019;The photo book editor has been connected to a new system for clipart, masks, frames and backgrounds. Favourites will have to be marked again as a favourite.;
+18.1.2;7-6-2019;General bug fixes and improvements;
+18.1.1;24-5-2019;General bug fixes and improvements;
+18.1.0;20-5-2019;Bugfix for moving images;
+18.1.0;20-5-2019;Bugfix for resizing images;
+18.1.0;20-5-2019;Performance improvements;
+18.0.0;18-4-2019;Photos can be selected again by clicking on a transparent area.;
+18.0.0;18-4-2019;Performance improvements (less noticeable on 4K or HighDPI screens).;
+18.0.0;18-4-2019;Conversion to hardcover works again.;
+18.0.0;18-4-2019;The mouse cursor is no longer limited in movement during rotation.;
+18.0.0;18-4-2019;Swapping of images no longer swaps decorations. Hold Shift to use the old behaviour.;
+18.0.0;18-4-2019;Swapping of photos and backgrounds is possible.;
+18.0.0;18-4-2019;Improved explanations when using Magic Backgrounds.;
+17.2.2;12-2-2019;Bugfix for horizon correction;
+17.2.1;9-2-2019;Bugfix for displaying images in the album;
+17.2.0;8-2-2019;Smart Assistant: Small improvements;
+17.2.0;8-2-2019;The error message when closing a balloon hint is resolved;
+17.2.0;8-2-2019;&quot;The error message &quot;&quot;Not enough memory to ...&quot;&quot; should occur less&quot;;
+17.1.1;21-1-2019;General bug fixes and improvements;
+17.1.0;20-12-2018;General bug fixes and improvements;
+17.0.0;28-11-2018;Smart Assistant: Check your selection and preview your photo book before you edit it!;
+16.2.1;7-11-2018;Fixed a bug in the Google Maps feature;
+16.2.0;1-11-2018;General bug fixes and improvements;
+16.2.0;1-11-2018;Introduction for new users;
+16.2.0;1-11-2018;A problem with elliptical crop has been solved;
+16.1.1;26-9-2018;Fixed a bug in the Smart Assistant;
+16.1.0;25-9-2018;General bug fixes and improvements;
+16.1.0;25-9-2018;Now you can also choose a layout style in the Smart Assistant!;
+16.0.0;17-9-2018;Search bar in the creator tool. You can now search for the editing feature you want to use!;
+16.0.0;17-9-2018;Improved Google Maps feature! Use modern-looking and high quality maps in your album.;
+15.1.0;14-8-2018;NEW! Smart Assistant makes it faster, easier and more fun to create a photo book.;
+15.0.0;12-7-2018;Magic backgrounds;
+15.0.0;12-7-2018;General bug fixes and improvements;
+14.1.0;13-6-2018;General bug fixes and improvements;
+14.0.0;21-3-2018;We updated the look and feel of the creator tool to make it clearer and easier to use.;
+13.1.1;22-11-2017;General bug fixes and improvements;
+13.1.0;4-10-2017;The editor automatically generates layouts for you when you add photos to the page.;
+13.1.0;4-10-2017;You can shuffle through layouts in a specific style or randomly through all styles.;
+13.1.0;4-10-2017;Add and remove pages from the page overview;
+13.1.0;4-10-2017;Access photo and text options, such as swapping and editing photos, directly below the photos;
+13.1.0;4-10-2017;Align placeholders to the edge of other placeholders by resizing;
+13.1.0;4-10-2017;Loading masks and frames on the photo does not block editing the rest of the page;
+13.1.0;4-10-2017;Upgrade to hardcover when you want to have more than 60 pages in a book;
+13.0.1;14-8-2017;Made general bug fixes and improvements;
+13.0.0;8-8-2017;You can now upgrade from a soft cover to a hard cover photo book.;
+13.0.0;8-8-2017;You can now shuffle through layouts in a specific layout style.;
+13.0.0;8-8-2017;&quot;Remove assets from your &apos;Favorites&apos; category) by right-clicking.&quot;;
+13.0.0;8-8-2017;It’s now much easier to align photos in your book.;
+12.1.0;28-6-2017;Added new layouts in the left-hand menu;
+12.1.0;28-6-2017;Improved default initial templates;
+12.1.0;28-6-2017;For new installations, your most recently selected photo folder is opened by default;
+12.1.0;28-6-2017;Made general bug fixes and improvements;
+12.0.0;22-5-2017;Made general bug fixes and improvements.;
+12.0.0;22-5-2017;Resolved a bug affecting Facebook photo import.;
+12.0.0;22-5-2017;Introduced photo sorting options to the photo browser.;
+12.0.0;22-5-2017;Improved performance for loading backgrounds, clip art, masks, and frames.;
+11.3.0;28-3-2017;Various small and hidden fixes and improvements;
+11.2.1;7-2-2017;The creator tool will no longer fail to start;
+11.2.1;7-2-2017;The margin sliders now display correctly, fixing a bug from the last release;
+11.2.1;7-2-2017;We’ve improved the process for recovering unsaved files;
+11.2.0;17-1-2017;A recovery file is created in case of a crash of the software;
+11.2.0;17-1-2017;The colour picker is improved to work with all supported Windows versions;
+11.2.0;17-1-2017;Drag and drop of multiple images from social media is now supported;
+11.2.0;17-1-2017;Any book can be started while offline;
+11.2.0;17-1-2017;Several improvements to the undo and redo functions;
+11.1.1;17-11-2016;Various small and hidden fixes and improvements;
+11.1.0;27-10-2016;Improved handling of rotation and sorting;
+11.1.0;27-10-2016;Improved product selection for older browsers;
+11.1.0;27-10-2016;More colour filtering and image type options in internet search;
+11.0.2;6-10-2016;Various small and hidden fixes and improvements;
+11.0.0;4-10-2016;If you have images or text on your clipboardyou can past them directly into your photo book;
+11.0.0;4-10-2016;&quot;Images you&apos;ve used as backgrounds can be converted to images on the page&quot;;
+11.0.0;4-10-2016;All decorations are now displayed in one place;
+11.0.0;4-10-2016;The application menu and list of recent albums has been updated;
+11.0.0;4-10-2016;Various improvements to the toolbar and other hidden improvements;
+11.0.1;3-10-2016;The old rotation method is used again;
+10.0.2;30-8-2016;Fixed several errors related to decorations;
+10.0.1;9-6-2016;You can once again swap pages by dragging via the page overview;
+10.0.1;9-6-2016;Various small and hidden fixes and improvements;
+        </releasenotes>
+      </update>
+    </platform>
+  </v2>
+</configuration>
